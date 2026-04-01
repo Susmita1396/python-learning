@@ -1,5 +1,5 @@
-name = "susmita"
-age = 30
+name = input("enter your name: ")
+age = int(input("enter your age: "))
 
-print("Hello, my name is", name)
-print("I am", age, "years old")
+print("Hello", name)
+print("Next year you will be", age + 1)
